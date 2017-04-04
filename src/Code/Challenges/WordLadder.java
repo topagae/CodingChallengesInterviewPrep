@@ -50,8 +50,7 @@ An integer representing the length of the shortest transformation sequence from 
  * @author of modified crap Chris Lee
  */
 
-import java.util.HashSet;
-import java.util.ArrayList;
+import java.util.*;
 
 public class WordLadder {
 
