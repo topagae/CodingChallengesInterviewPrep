@@ -1,4 +1,4 @@
-
+package Code.Challenges;
 /**
 Used to solve a programming challenge here on www.codefights.com
 

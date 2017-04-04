@@ -1,4 +1,4 @@
-
+package Code.Challenges;
 /**
  Note: Write a solution with O(n2) time complexity, since this is what you would be asked to do during a real interview.
 
@@ -49,13 +49,13 @@ public class TripletSum {
         // Sort the array
         Arrays.sort(a);
 
-        // We're going to iterate over each entry using method in url above. Checking the left-most and right most in sorted array to see if we can find the sum for the third.
+        // We're going to iterate over each entry using method in url above. Checking the left-most and right most in sorted array to see if we can findValue the sum for the third.
         int leftPointer, rightPointer;
 
-        /* Now fix the first element one by one and find the other two elements */
+        /* Now fix the first element one by one and findValue the other two elements */
         for (int fixedElement = 0; fixedElement < a.length - 2; fixedElement++)
         {
-            // To find the other two elements, start two index variables from two corners of the array and move them toward each other.
+            // To findValue the other two elements, start two index variables from two corners of the array and move them toward each other.
 
             // Index of the first element in the remaining elements
             leftPointer = fixedElement + 1;

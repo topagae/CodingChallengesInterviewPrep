@@ -1,4 +1,4 @@
-
+package Code.Challenges;
 /*
 Used to solve a programming challenge here on www.codefights.com
 Given two words, beginWord and endWord, and a wordList of approved words, find the length of the shortest transformation sequence from beginWord to endWord such that:
