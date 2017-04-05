@@ -1,8 +1,6 @@
 package Code.piexposedsamples;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * For reference, exercises with Sorting. Annotated for learning. I should've saved this from college.
