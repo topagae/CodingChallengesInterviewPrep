@@ -41,7 +41,7 @@ public class BinarySearchTree {
 
         testTree.postOrderTraversalRecursive(testTree.root);
 
-        System.out.println("\nPost-order Traversal of Tree(Stack) : \n" + testTree.postOrderTraversalStack(testTree.root));
+        //System.out.println("\nPost-order Traversal of Tree(Stack) : \n" + testTree.postOrderTraversalStack(testTree.root));
 
         System.out.println("\nPre-order Traversal of Tree(Recursive): ");
 
