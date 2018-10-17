@@ -497,7 +497,7 @@ public class BinarySearchTree {
         //While you still have nodes you can search.
         while (searchNode != null) {
             int currentSearchNodeValue = searchNode.getValue();
-            // While the value of the node your current searching is larger then both. You want to go left to find a smaller possible ancestor.
+            // While the value of the node your currently looking at in your search is larger then both. You want to go left to find a smaller possible ancestor.
             if (currentSearchNodeValue > nodeValueOne && currentSearchNodeValue > nodeValueTwo) {
                 searchNode = searchNode.getLeft();
                 // While the value of the node your current searching is smaller then both. You want to go right to find a larger possible ancestor.
