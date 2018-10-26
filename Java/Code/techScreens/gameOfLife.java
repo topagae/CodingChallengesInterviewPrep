@@ -35,7 +35,7 @@ class GameOfLife {
         firstTest.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0)));
         firstTest.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0)));
 
-        System.out.println("The first board looks like this: ");
+        System.out.println("\nThe first board looks like this: ");
         for (List<Integer> list : firstTest) {
             for (Integer i : list) {
                 System.out.print(i+" ");
@@ -45,7 +45,7 @@ class GameOfLife {
 
         ArrayList<ArrayList<Integer>> firstTestResults = nextBoardState(firstTest);
 
-        System.out.println("The first iteration from the first board looks like this: ");
+        System.out.println("\nThe first iteration from the first board looks like this: ");
         for (List<Integer> list : firstTestResults) {
             for (Integer i : list) {
                 System.out.print(i+" ");
