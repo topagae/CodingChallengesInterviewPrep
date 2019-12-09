@@ -1,5 +1,4 @@
-*.class
-.idea/*
+gt*.class
 out/*
 CodingChallengesInterviewPrep.iml
 Java/.idea/misc.xml
@@ -20,3 +19,7 @@ Java/out/production/CodingChallengesInterviewPrep/Code/piexposedsamples/.idea/mo
 Java/out/production/CodingChallengesInterviewPrep/Code/piexposedsamples/.idea/piexposedsamples.iml
 Java/out/production/CodingChallengesInterviewPrep/Code/piexposedsamples/.idea/vcs.xml
 Java/out/production/CodingChallengesInterviewPrep/Code/piexposedsamples/.idea/workspace.xml
+/Java/Code/.idea/
+/Java/Code/production/
+/Java/.idea/
+/Java/Code/.idea/
